@@ -34,3 +34,5 @@ chmod +x NVIDIA-Linux-x86_64-367.57.run
 chroot /rootfs /tmp/NVIDIA-Linux-x86_64-367.57.run -s --install-libglvnd
 
 chroot /rootfs nvidia-xconfig --busid=PCI:0:3:0 --use-display-device=None --virtual=1280x720
+
+# TODO: Start X with /usr/bin/X :0
